@@ -88,4 +88,6 @@ If you notice in the previous picture there is a blue <font color="turquoise">Ed
 &nbsp;
 
 ### Admin Mode
-If you were to sign into <font color="turquoise">Admin</font> you will be given another option within your NavBar called "Admin" (login can be found in the setting file). You will get access to all Contacts associated with all of the users as well as the user in which it belongs to at the bottom of each contact.
+If you were to sign into <font color="turquoise">Admin</font> you will be given another option within your NavBar called "Admin" (login can be found in the setting file). You will get access to all Contacts associated with all of the users as well as the user in which it belongs to underneath the bio of each contact.
+
+<img src="doc/admin.png">

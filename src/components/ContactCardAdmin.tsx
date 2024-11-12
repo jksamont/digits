@@ -20,10 +20,10 @@ const ContactCardAdmin = ({ contact, notes }: { contact: Contact, notes: Note[] 
     </Card.Header>
     <Card.Body>
       <Card.Text>{contact.description}</Card.Text>
+      <p className="blockquote-footer">{contact.owner}</p>
       <ListGroup variant="flush">
         {notes.map((note) => <NoteItem key={note.id} note={note} />)}
       </ListGroup>
-      <p className="blockquote-footer">{contact.owner}</p>
     </Card.Body>
   </Card>
 );
